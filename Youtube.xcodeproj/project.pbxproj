@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE91A4082233FCF400E6AAA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91A4072233FCF400E6AAA2 /* AppDelegate.swift */; };
-		CE91A40A2233FCF400E6AAA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91A4092233FCF400E6AAA2 /* ViewController.swift */; };
+		CE91A40A2233FCF400E6AAA2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91A4092233FCF400E6AAA2 /* HomeController.swift */; };
 		CE91A40D2233FCF400E6AAA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE91A40B2233FCF400E6AAA2 /* Main.storyboard */; };
 		CE91A40F2233FCF600E6AAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE91A40E2233FCF600E6AAA2 /* Assets.xcassets */; };
 		CE91A4122233FCF600E6AAA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE91A4102233FCF600E6AAA2 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		CE91A4042233FCF400E6AAA2 /* Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE91A4072233FCF400E6AAA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE91A4092233FCF400E6AAA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE91A4092233FCF400E6AAA2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		CE91A40C2233FCF400E6AAA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE91A40E2233FCF600E6AAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE91A4112233FCF600E6AAA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				CE91A4072233FCF400E6AAA2 /* AppDelegate.swift */,
-				CE91A4092233FCF400E6AAA2 /* ViewController.swift */,
+				CE91A4092233FCF400E6AAA2 /* HomeController.swift */,
 				CE91A40B2233FCF400E6AAA2 /* Main.storyboard */,
 				CE91A40E2233FCF600E6AAA2 /* Assets.xcassets */,
 				CE91A4102233FCF600E6AAA2 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE91A40A2233FCF400E6AAA2 /* ViewController.swift in Sources */,
+				CE91A40A2233FCF400E6AAA2 /* HomeController.swift in Sources */,
 				CE91A4082233FCF400E6AAA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ96AQRU3R;
 				INFOPLIST_FILE = Youtube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ96AQRU3R;
 				INFOPLIST_FILE = Youtube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
